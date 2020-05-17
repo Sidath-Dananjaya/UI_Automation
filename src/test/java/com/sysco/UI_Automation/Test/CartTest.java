@@ -2,6 +2,7 @@ package com.sysco.UI_Automation.Test;
 
 import com.sysco.UI_Automation.Function.Cart;
 import com.sysco.UI_Automation.Util.TestBase;
+import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import java.io.IOException;
@@ -10,7 +11,7 @@ import static com.sysco.UI_Automation.Function.Cart.theCart;
 
 public class CartTest extends TestBase {
 
-
+@Test
     public void testShoppingCart() throws IOException {
         SoftAssert softAssert = new SoftAssert();
 
